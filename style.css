@@ -1,0 +1,80 @@
+
+.header{
+height: 80px;
+}
+.header .header-block {   
+width: 1000px;
+background-color: cyan;
+margin: 0 auto;
+}
+.menu {
+width: 600px;
+float: left;
+}
+.menu ul {
+    padding-top: 20px;
+}
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 20px;
+}
+.social-media {
+    width: 200px;
+    float: left;
+    }
+.logo {
+ width: 200px;
+ float: left;
+}
+
+.slider {
+    height: 350px;
+}
+.slider .slider-block {
+width: 1000px;
+height: 350px;
+background-color: brown;
+margin: 0 auto;
+text-align: center;
+background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/01/Tropical-beach-at-sunset-nature-background-915x515.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+text-shadow: 1px 2px white;
+}
+.slider-block h3 {
+    padding-top: 150px;
+}
+.content { 
+    margin: 0 auto;
+}
+.content .content-block {
+    width: 1000px;
+background-color: cadetblue;
+margin: 0 auto;
+}
+.card  {
+    margin-top: 5px;
+    width: 320px;
+    background-color: yellowgreen;
+    margin-right: 20px;
+    float: left;
+}
+.card:nth-child(3) {
+    margin-right: 0;
+}
+.card-content button {
+    border: 0px;
+    
+
+}
+.footer {
+    margin:0 auto;
+}
+.footer .footer-block {
+    width: 1000px;
+    height: 20px;
+    background-color: coral;
+    margin: 0 auto;
+}
