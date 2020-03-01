@@ -30,14 +30,44 @@ float: left;
 
 font-family: 'Metal Mania' ;
 }
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
 
 .slider {
     height: 350px;
 }
+
 .slider .slider-block {
 width: 1000px;
 height: 350px;
-background-color: brown;
 margin: 0 auto;
 text-align: center;
 background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/01/Tropical-beach-at-sunset-nature-background-915x515.jpg);
