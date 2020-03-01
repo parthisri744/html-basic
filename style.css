@@ -26,6 +26,9 @@ float: left;
 .logo {
  width: 200px;
  float: left;
+ font-size: x-large;
+
+font-family: 'Metal Mania' ;
 }
 
 .slider {
@@ -48,6 +51,7 @@ text-shadow: 1px 2px white;
 }
 .content { 
     margin: 0 auto;
+    height:350px;
 }
 .content .content-block {
     width: 1000px;
@@ -57,24 +61,43 @@ margin: 0 auto;
 .card  {
     margin-top: 5px;
     width: 320px;
-    background-color: yellowgreen;
     margin-right: 20px;
     float: left;
 }
 .card:nth-child(3) {
     margin-right: 0;
 }
-.card-content button {
+.card-block button {
     border: 0px;
-    
-
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background-color:brown;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 130px;
+}
+.card-block button :focus {
+ outline: none;
+}
+.card-block button:hover {
+    background-color: lightbluel;
+    color:black;
+}
+.card-block  h4, p{
+    text-align: center;
 }
 .footer {
+     height: 50px;
     margin:0 auto;
+    background-color: gray;
 }
 .footer .footer-block {
+   
     width: 1000px;
-    height: 20px;
-    background-color: coral;
     margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
 }
